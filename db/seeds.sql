@@ -27,7 +27,7 @@ INSERT INTO roles (title, salary, department_id) VALUES
     ('Maintenance Manager', 135000.00, 10);
 
 -- Insert employees
-INSERT INTO employees (first_name, last_name, role_id, manager_id) VALUES
+INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES
     ('Naruto', 'Uzumaki', 1, 1),
     ('Light', 'Yagami', 2, 2),
     ('Sakura', 'Haruno', 3, 3),
